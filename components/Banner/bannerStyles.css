@@ -1,0 +1,79 @@
+div.banner {
+    padding: 16px;
+    border-radius: 6px;
+    font-family: 'Inter';
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+h1.banner-title {
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0;
+    margin: 0;
+}
+
+p.banner-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+div.banner.success {
+    background-color: #ECFDF5;
+    color: #34D399;
+}
+
+div.banner.success .banner-title {
+    color: #065F46;
+}
+
+div.banner.success .banner-text {
+    color: #047857;
+}
+
+div.banner.warning {
+    background-color: #FFFBEB;
+    color: #FBBF24;
+}
+
+div.banner.warning .banner-title {
+    color: #92400E;
+}
+
+div.banner.warning .banner-text {
+    color: #B45309;
+}
+
+div.banner.error {
+    background-color: #FEF2F2;
+    color: #F87171;
+}
+
+div.banner.error .banner-title {
+    color: #92400E;
+}
+
+div.banner.error .banner-title.singleline {
+    font-weight: 700;
+}
+
+div.banner.error .banner-text {
+    color: #B45309;
+}
+
+div.banner.neutral {
+    background-color: #EFF6FF;
+    color: #60A5FA;
+}
+
+div.banner.neutral .banner-title {
+    color: #1E40AF;
+}
+
+div.banner.neutral .banner-text {
+    color: #1C51B9;
+}
